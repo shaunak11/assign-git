@@ -1,7 +1,27 @@
 What is a gitignore file and what should it include for a Java project?
 
+gitingore file is information for 'git' in form of list of extentions. It is used while
+one tries to push the code, 'git' ignores files ending with mentioned extentions. This
+helps prevent upload of unnecessary files that are not required for source control. 
+Files like '.project' for eclipse, package files with '.jar', '.war', '.rar' etc; log
+file with '.log'. These files may vary for each developer and are not needed for 
+control of the source code. 
+
+
 What does fast-forward in Git mean?
+
+When user does merge branch on 'git', fast forward is when that branch is ahead of
+checked out branch.
+
 
 Why should you have different branches?
 
+Having different branches helps different users/ to work on respective development
+and not worry about other programmers messing with it. If a software is such that it
+requires different environments or different features, with the help of branches,
+one can easily have separate working space. And it merely is a copied pointer, so
+main stream of work base is same.
+
+
 In a project how many remote Git repositories do you usually have?
+There usually is only one repository. May vary depending on project.
