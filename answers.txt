@@ -24,4 +24,5 @@ main stream of work base is same.
 
 
 In a project how many remote Git repositories do you usually have?
+
 There usually is only one repository. May vary depending on project.
